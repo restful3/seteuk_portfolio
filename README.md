@@ -1,7 +1,7 @@
 # seteuk_portfolio
-세특 대비를 위한 포트폴리오
+- 세특을 위한 포트폴리오 대비반
 
-
+- 파이썬 기본 및 심화 스케줄 및 수업자료
 | 번호 | 날짜          | 수업 내용                                             | Page   |
 |------|---------------|--------------------------------------------------------|--------|
 | 1강  | 2024년 3월 9일 | [01장 파이썬이란 무엇인가? 주피터 노트북 설치 및 사용법](https://github.com/restful3/seteuk_portfolio/blob/main/%ED%8C%8C%EC%9D%B4%EC%8D%AC_%EA%B8%B0%EB%B3%B8_%EC%8B%AC%ED%99%94%EB%B0%98/ch01_%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%9D%B4%EB%9E%80_%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80/ch01_%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%9D%B4%EB%9E%80_%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80.ipynb) | 19~43  |
