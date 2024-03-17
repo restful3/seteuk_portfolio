@@ -1,6 +1,7 @@
 # seteuk_portfolio
 - 세특을 위한 포트폴리오 대비반
 - 파이썬 기본 및 심화반
+  - 교재 : [Do it! 점프 투 파이썬](https://product.kyobobook.co.kr/detail/S000202532365)
   - 스케줄 및 수업자료
 
 | 번호 | 날짜          | 수업 내용 및 자료                                      | Page   |
