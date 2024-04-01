@@ -11,12 +11,12 @@
 | 3강  | 2024년 3월 23일 | [02장 파이썬 프로그래밍의 기초, 자료형](https://github.com/restful3/seteuk_portfolio/blob/main/%ED%8C%8C%EC%9D%B4%EC%8D%AC_%EA%B8%B0%EB%B3%B8_%EC%8B%AC%ED%99%94%EB%B0%98/ch02_%ED%8C%8C%EC%9D%B4%EC%8D%AC_%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%EC%9D%98_%EA%B8%B0%EC%B4%88_%EC%9E%90%EB%A3%8C%ED%98%95(%EA%B0%95%EC%82%AC%EC%9A%A9).ipynb)                  | 89~116 |
 | 4강  | 2024년 3월 30일 | [03장 프로그램의 구조를 쌓는다! 제어문](https://github.com/restful3/seteuk_portfolio/blob/main/%ED%8C%8C%EC%9D%B4%EC%8D%AC_%EA%B8%B0%EB%B3%B8_%EC%8B%AC%ED%99%94%EB%B0%98/ch03_%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8%EC%9D%98_%EA%B5%AC%EC%A1%B0%EB%A5%BC_%EC%8C%93%EB%8A%94%EB%8B%A4_%EC%A0%9C%EC%96%B4%EB%AC%B8(%EA%B0%95%EC%82%AC%EC%9A%A9).ipynb)                  | 121~149|
 | 5강  | 2024년 4월 6일  | [04장 파이썬의 입출력](https://github.com/restful3/seteuk_portfolio/blob/main/%ED%8C%8C%EC%9D%B4%EC%8D%AC_%EA%B8%B0%EB%B3%B8_%EC%8B%AC%ED%99%94%EB%B0%98/ch04_%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%9D%98_%EC%9E%85%EC%B6%9C%EB%A0%A5(%EA%B0%95%EC%82%AC%EC%9A%A9).ipynb)                                   | 153~185|
-| 6강  | 2024년 4월 13일 | 05장 파이썬 날개 달기                                  | 190~240|
-| 7강  | 2024년 4월 20일 | 05장 파이썬 날개 달기                                  | 241-285|
-| 8강  | 2024년 4월 27일 | 05장 파이썬 날개 달기 06장 파이썬 프로그래밍, 어떻게 시작해야 할까? | 287~322|
-| 9강  | 2024년 5월 4일  | 07장 파이썬 날아오르기                                 | 327~352|
-| 10강 | 2024년 5월 11일 | 08장 정규 표현식                                      | 355~384|
-| 11강 | 2024년 5월 18일 | Do it! 파이썬 코딩 면허 시험 20제                      | 385    |
+| 6강  | 2024년 4월 13일 | 05장 파이썬 날개 달기                                  | 190~230|
+| 7강  | 2024년 4월 20일 | 05장 파이썬 날개 달기                                  | 231-295|
+| 8강  | 2024년 4월 27일 | 06장 파이썬 프로그래밍, 어떻게 시작해야 할까?            | 305~325|
+| 9강  | 2024년 5월 4일  | 복습 및 문제 풀이 1                                    | NA|
+| 10강 | 2024년 5월 11일 | 복습 및 문제 풀이 2                                    | NA|
+| 11강 | 2024년 5월 18일 | 복습 및 문제 풀이 3                                    | NA  |
 
 - 데이터 분석 입문반
-  - 교재 : [한 권으로 끝내는 <판다스 노트>](https://wikidocs.net/book/4639)
+  - 교재 : [Do it! 데이터 분석을 위한 판다스 입문]([https://wikidocs.net/book/4639](https://product.kyobobook.co.kr/detail/S000211361197))
