@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.10/vue.min.js" charset="utf-8"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js" charset="utf-8"></script>
+        <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+    </head>
+<body>
+    <div id="contents">
+        <h1>{{job.job}}</h1>
+        <p>{{job.summary}}</p>
+        <h2>특성</h2>
+        <p>
+            {{job.aptitude}}
+        </p>
+        <h2>능력</h2>
+        <p>
+            {{job.ability}}
+        </p>
+        <div v-if="job.stateofemp != null && job.stateofemp[1] != null">
+            <h2>고용현황</h2>
+            <p>
+                {{job.stateofemp[1].employment}}
+            </p>
+        </div>
+        <div  v-if="job.stateofemp != null && job.stateofemp[0] != null">
+            <h2>진로</h2>
+            <p>
+                {{job.stateofemp[0].empway}}
+            </p>
+        </div>
+        <div  v-if="job.stateofemp != null && job.stateofemp[2] != null">
+            <h2>연봉</h2>
+            <p>
+                {{ job.stateofemp[2].salery }}
+            </p>
+        </div>
+    </div>
+</body>
+
+<script type="text/javascript">
+    /*<![CDATA[*/
+    var app = new Vue({
+        el: '#contents',
+        data: {
+            job:{stateofemp:[{empway:''},{employment:''},{salery:''}]}
+        },
+        methods: {
+            
+        },
+        computed: {}
+    });
+    app.$nextTick(function () {
+        axios.get('http://www.career.go.kr/cnet/openapi/getOpenApi?apiKey=631411887293319c018c3eeeb7413e40&svcType=api&svcCode=JOB_VIEW&contentType=json&gubun=job_dic_list&jobdicSeq=1092').then(function(res){
+            app.job = res.data.dataSearch.content[0];
+        });
+    });
+    /*]]>*/
+</script>
+</html>
+
+
